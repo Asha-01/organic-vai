@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    background-color:lightgreen;
+    font-size: 25px;
+    height: 65px;
+    padding-top: 10px; 
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    background-color: white;
+    color: lightcoral;
+    font-size: 30px;
+    border-radius: 7px;
+
+}
+.org{
+    color: lightcoral;
+}
+.anchors{
+    display: flex;
+    justify-content:space-between;
+
+}
+.anchors>a>h1{
+    color: lightcoral;font-size: 35px;
+}
+.anchors>a{
+    margin: 5px;
+    padding: 5px;
+}
+#search{
+    text-decoration: underline;
+}
+.background{
+ margin-top: 0;
+ background-color: lightgreen;
+ height: 100vh;
+ width: 100%;padding: 7em;
+
+}
+.background-content{
+    text-align: center;
+    font-size: 40px;
+}
+#organ{
+    font-size: 70px;
+}
+.shop{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightcoral;
+    color: beige;
+    border-radius:5px ;
+    padding: 10px;
+}
+.food{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    align-items: space-evenly;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+   
+
+}
+.food>div{
+    background-color: lightsalmon;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgrey;
+
+}
+.food>div>a{
+    background-color: transparent;
+    border-top:2px solid lightcyan ;
+    border-bottom: 2px solid lightcyan;
+    padding: 10px;
+}
+
